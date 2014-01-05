@@ -1,10 +1,12 @@
 package Bio::FASTASequence;
 
+# ABSTRACT: Parsing sequence informations in FASTA format.
+
 use 5.006;
 use strict;
 use warnings;
 
-our $VERSION     = '0.06';
+our $VERSION = '0.07';
 
 #
 # new creates a new instance of Bio::FASTASequence
@@ -324,11 +326,6 @@ sub seq2xml{
 
 1;
 __END__
-# Below is stub documentation for your module. You'd better edit it!
-
-=head1 NAME
-
-Bio::FASTASequence - Perl extension for Bioinformatics. Parsing sequence informations.
 
 =head1 SYNOPSIS
 
@@ -494,18 +491,5 @@ module.
 =head1 MODIFICATIONS
 
 More FASTA-Description lines are accepted.
-
-=head1 AUTHOR
-
-Renee Baecker, E<lt>module@renee-baecker.deE<gt>
-
-feel free to contact me.
-
-=head1 COPYRIGHT AND LICENSE
-
-Copyright 2004 - 2009 by Renee Baecker
-
-This library is free software; you can redistribute it and/or modify
-it under the terms of Artistic License 2.0. 
 
 =cut
